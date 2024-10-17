@@ -1,0 +1,149 @@
+html {
+    background-color: #EDF2C5;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Noto Sans TC';
+    margin: 0;
+}
+
+.container {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+.header-1 {
+    width: 235px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 59.93px;
+    color: #778A50;
+}
+
+.header-2 {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    color: #778A50;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+}
+
+
+
+.login, .join {
+    font-weight: 800;
+    border-radius: 3px;
+    border: 1px solid #778A50;
+    padding: 4px 8px;
+}
+
+.login {
+    margin-left: 12px;
+}
+
+.join {
+    margin-left: 14px;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    align-items: center;
+    width: 1120px;
+    height: 24px;
+    border-radius: 3px;
+    background-color: #778A50;
+    color: #F7FBDA;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #F7FBDA;
+    padding: 0 20px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav a:hover {
+    background-color: #F7FBDA;
+    color: #778A50;
+    border-radius: 0px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-1, .sec-2 {
+    width: 528px;
+}
+
+.sec-1-bg, .sec-2-bg {
+    background-color: #778A50;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.sec-1-header, .sec-2-header {
+    color: #EDF2C5;
+    margin-left: 20px;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.sec-1-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-2-content {
+    background-color: #F7FBDA;
+    color: #7D7D7D;
+    height: 140px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #EDF2C5;
+    background-color: #778A50;
+    height: 50px;
+    margin-top: 120px;
+    font-size: 13px;
+}
